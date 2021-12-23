@@ -22,11 +22,11 @@
 
 - Create a `blog` table with a thousand generated articles that consist of a `title`, `content`, `author`, `create_at`, `updated_at`.
 
-- Develop a public API route that returns a paginated list of blog articles using GraphQL Relay Cursor-based pagination method.
+- Develop a public REST API route that returns a paginated list of blog articles. The implementation should use GraphQL Relay Cursor-based pagination method.
 
-- Implement full-text search with Hasura GraphQL API and Postgres for all blogs where their title & content are searchable
+- Implement full-text fuzzy search with Hasura GraphQL API and Postgres for all blogs where their title & content are searchable. Expose an API to interact with the functionality.
 
-- Deploy each route to its own Lambda function using the Serverless Framework.
+- Deploy each route to its own Lambda function using the [Serverless Framework](https://www.serverless.com/). Do note you can use the Serverless Framework without the serverless cloud service.
 
 ## Extra Points
 
